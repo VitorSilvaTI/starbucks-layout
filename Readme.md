@@ -1,1 +1,2 @@
-# Starbucks replica (estudos para desenvolvimento web)
+# Starbucks 
+## réplica destinada para estudos de desenvolvimento web
