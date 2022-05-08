@@ -1,8 +1,15 @@
 @charset "UTF-8";
 
+/* OpenSans e Oswald */
+
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Oswald:wght@400;700&display=swap');
 
-/*OpenSans e Oswald*/
+
+/* Reuses Classes */
+.align-items-center {
+    display: flex;
+    align-items: center;
+}
 
 * {
     margin: 0;
@@ -30,9 +37,7 @@ h2 {
 }
 
 .header-area {
-    display: flex;
     justify-content: space-between;
-    align-items: center;
     height: 100px;
 }
 
@@ -41,15 +46,8 @@ h2 {
     width: 64px;
 }
 
-.header-right {
-    display: flex;
-    align-items: center;
-}
-
 
 .area-search {
-    display: flex;
-    align-items: center;
     background-color: white;
     border: 1px solid #999999;
 }
@@ -69,8 +67,6 @@ form {
 
 .button-loupe {
     padding: 5px;
-    display: flex;
-    align-items: center;
     cursor: pointer;
 }
 
@@ -94,8 +90,7 @@ form {
     background-image: url('../images/bg.jpg');
     padding: 80px;
     background-position: center;
-    background-size: cover;
-    
+    background-size: cover;  
 }
 
 .banner h1 {
